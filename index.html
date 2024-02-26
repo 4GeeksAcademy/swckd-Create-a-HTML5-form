@@ -43,11 +43,11 @@
                                     <div class="col">
                                         <label for="cardnumber" class="form-label fw-bold">Card Number</label>
                                         <input type="text" class="form-control" id="cardnumber"
-                                            placeholder="**** **** **** ****" maxlength="16" required>
+                                            placeholder="**** **** **** ****" maxlength="16" pattern="[0-9]{16}" required>
                                     </div>
                                     <div class="col">
                                         <label for="cvc" class="form-label fw-bold">CVC Number</label>
-                                        <input type="text" class="form-control" id="cvc" placeholder="***" maxlength="3"
+                                        <input type="text" class="form-control" id="cvc" placeholder="***" maxlength="3" pattern="[0-9]{3}"
                                             required>
                                     </div>
                                     <div class="col">
